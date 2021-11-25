@@ -26,7 +26,7 @@
 }
 
 .radioButton:hover {
-    background-color: #E0A800;
+    background-color: #790202;
 }
 
 .firstButton {
@@ -70,8 +70,8 @@
     margin-right: 20px;
     border-radius: 20px;
     font-weight: 500;
-    /* color: #E0A800; */
-    border: 3px solid #E0A800;
+    
+    border: 3px solid #790202;
 }
 
 @media screen and (max-width: 768px) {

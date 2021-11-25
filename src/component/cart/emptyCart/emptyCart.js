@@ -8,9 +8,9 @@ export default function EmptyCart() {
       <Row>
         <Col className="col-lg-12  ">
           <section className={classes.empty}>
-            <h1> !!OOPS </h1> <h2> There is no item in your cart </h2>{" "}
-          </section>{" "}
-        </Col>{" "}
+            <h1> !!OOPS </h1> <h2> There is no item in your cart </h2> 
+          </section> 
+        </Col> 
       </Row>
     </div>
   );

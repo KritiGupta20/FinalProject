@@ -9,11 +9,11 @@
 }
 
 .myCart {
-    border-bottom: 2px solid #757575;
+    border-bottom: 2px solid #0c012f;
 }
 
 .myCart h2 {
-    border-bottom: 2px solid #757575;
+    border-bottom: 2px solid #0c012f;
     padding-bottom: 10px;
 }
 
@@ -76,7 +76,7 @@
     border-radius: 20px;
     font-weight: 500;
     /* color: #E0A800; */
-    border: 3px solid #E0A800;
+    border: 3px solid #790202;
 }
 
 @media screen and (max-width:1024px) and (min-width:769px) {
@@ -89,7 +89,7 @@
     .myCartInfo {
         flex-direction: column;
         padding-bottom: 20px;
-        border-bottom: 2px solid #757575;
+        border-bottom: 2px solid #0c012f;
     }
     .myCartImg img {
         margin-bottom: 15px;

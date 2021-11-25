@@ -5,7 +5,7 @@ import SearchSharpIcon from '@material-ui/icons/SearchSharp';
 function Mylabel() {
     return ( 
         <div className = { classes.label } >
-        <h1> A few clicks is all it takes </h1> 
+        <h1> Its just a few clicks away </h1>  
         
         <div className = { classes.searchBar } >
         

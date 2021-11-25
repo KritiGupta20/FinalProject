@@ -41,11 +41,6 @@ function Cart() {
                               </div> 
                               <div className={classes.cartLeft}>
                                 <h5> {item.title} </h5> <h6> {modal} </h6> 
-                                <h6>
-                                   
-                                  Lorem ipsum dolor amet offal butcher quinoa
-                                  sustainable 
-                                </h6> 
                                 <p>
                                    
                                   <span> $ </span>

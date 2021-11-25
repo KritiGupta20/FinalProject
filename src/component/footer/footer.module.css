@@ -4,7 +4,7 @@
 }
 
 .footer {
-    background-color: #343A40;
+    background-color: #0c012f;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -36,7 +36,8 @@
 }
 
 .icon {
-    color: #E0A800;
+    color:#790202 ;
+    
 }
 
 .copyright h6 {

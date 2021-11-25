@@ -12,17 +12,16 @@ export default function OrderPlaced() {
       <div className={classes.body}>
         <Row>
           <ProductConsumer>
-            {" "}
+                 
             {(value) => {
               return (
                 <Col className="col-lg-12 col-md-12 col-12 ">
                   <div className={classes.placed}>
-                    <h1> Your Order has been placed </h1>{" "}
-                    <p>
-                      {" "}
+                    <h1> Your Order has been placed </h1>     
+                    <p>  
                       Lorem ipsum dolor amet sustainable gastropub, echo park
-                      actually green juice{" "}
-                    </p>{" "}
+                      actually green juice     
+                    </p>     
                     <Link to="/">
                       <Button
                         onClick={() => {
@@ -31,16 +30,16 @@ export default function OrderPlaced() {
                         className={classes.myButton}
                         variant="warning"
                       >
-                        Continue Shopping{" "}
-                      </Button>{" "}
-                    </Link>{" "}
-                  </div>{" "}
+                        Continue Shopping     
+                      </Button>     
+                    </Link>     
+                  </div>     
                 </Col>
               );
             }}
-          </ProductConsumer>{" "}
-        </Row>{" "}
-      </div>{" "}
+          </ProductConsumer>     
+        </Row>     
+      </div>     
       <InfoTable />
     </React.Fragment>
   );
