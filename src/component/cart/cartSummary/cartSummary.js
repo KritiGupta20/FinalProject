@@ -12,56 +12,55 @@ function CartSummary(props) {
             onChange={props.couponHandler}
             type="text"
             placeholder="ENTER COUPON CODE"
-          >
-            {" "}
-          </input>{" "}
-        </div>{" "}
+          >    
+          </input>   
+        </div>   
         <div className={classes.cal}>
           <Row>
             <Col className="col-lg-6  col-6  mt-3">
-              <p> SUBTOTAL </p>{" "}
-            </Col>{" "}
+              <p> SUBTOTAL </p>   
+            </Col>   
             <Col className="col-lg-6  col-6  mt-3">
               <p>
-                {" "}
+
                 <span> $ {props.cartSubTotal} </span>
               </p>
-            </Col>{" "}
+            </Col>   
             <Col className="col-lg-6  col-6 ">
-              <p> SHIPPING </p>{" "}
-            </Col>{" "}
+              <p> SHIPPING </p>   
+            </Col>   
             <Col className="col-lg-6  col-6 ">
-              <p> {props.delivery} </p>{" "}
-            </Col>{" "}
+              <p> {props.delivery} </p>   
+            </Col>   
             <Col className="col-lg-6  col-6 ">
-              <p> TAXES </p>{" "}
-            </Col>{" "}
+              <p> TAXES </p>   
+            </Col>   
             <Col className="col-lg-6  col-6 ">
-              <p> 10 % </p>{" "}
-            </Col>{" "}
+              <p> 10 % </p>   
+            </Col>   
             <Col className="col-lg-6  col-6 ">
-              <p> DISCOUNT </p>{" "}
-            </Col>{" "}
+              <p> DISCOUNT </p>   
+            </Col>   
             <Col className="col-lg-6  col-6 ">
-              <p> $ {props.coupon} </p>{" "}
-            </Col>{" "}
-          </Row>{" "}
-        </div>{" "}
+              <p> $ {props.coupon} </p>   
+            </Col>   
+          </Row>   
+        </div>   
         <div className={classes.total}>
           <Row>
             <Col className="col-lg-6">
-              <p> TOTAL </p>{" "}
-            </Col>{" "}
+              <p> TOTAL </p>   
+            </Col>   
             <Col className="col-lg-6">
               <p>
-                {" "}
+                   
                 <span> $ </span>
                 {props.cartTotal}
               </p>
-            </Col>{" "}
-          </Row>{" "}
+            </Col>   
+          </Row>   
         </div>
-      </div>{" "}
+      </div>   
     </React.Fragment>
   );
 }

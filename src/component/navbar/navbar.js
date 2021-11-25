@@ -14,7 +14,7 @@ function MyNavbar() {
                         <Nav className="ml-auto mr-5">
                         <Nav.Link className={classes.links} href="/">Home</Nav.Link>
                         <Nav.Link className={classes.links} href="#about">About</Nav.Link>
-                        <Nav.Link className={classes.links} href="#shop">Shop</Nav.Link>
+                        <Nav.Link className={classes.links} href="/products">Shop</Nav.Link>
                         <Nav.Link className=" mr-5" href="#help">Help</Nav.Link>
                          <Link to="/cart">
                             <Button variant="warning"> 

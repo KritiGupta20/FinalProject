@@ -1,5 +1,5 @@
 .summaryInfo {
-    border-bottom: 2px solid #757575;
+    border-bottom: 2px solid #0c012f;
     padding-bottom: 6px;
     display: flex;
     /* border: 1px solid #111; */
@@ -29,7 +29,7 @@
 }
 
 .cartSummary h2 {
-    border-bottom: 2px solid #757575;
+    border-bottom: 2px solid #0c012f;
     padding-bottom: 10px;
 }
 

@@ -8,7 +8,7 @@ class Products extends Component {
   render() {
     return (
       <ProductConsumer>
-        {" "}
+          
         {(value) => {
           const { id, title, img, star, addToCart, price } = this.props.product;
           return (
@@ -31,23 +31,23 @@ class Products extends Component {
                       <p disabled> In The Cart </p>
                     ) : (
                       <p>Add TO Cart</p>
-                    )}{" "}
-                  </button>{" "}
+                    )}  
+                  </button>  
                 </div>
 
                 <div className={classes.productInfo}>
-                  <h5> {title} </h5>{" "}
-                  <div className={classes.starIcons}> {star} </div>{" "}
+                  <h5> {title} </h5>  
+                  <div className={classes.starIcons}> {star} </div>  
                   <p>
-                    {" "}
+                      
                     <span> $ </span>
                     {price}
                   </p>
                 </div>
-              </div>{" "}
+              </div>  
             </Col>
           );
-        }}{" "}
+        }}  
       </ProductConsumer>
     );
   }

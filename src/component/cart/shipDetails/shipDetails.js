@@ -22,11 +22,11 @@ function ShipDetail() {
         <Row>
           <Col className="col-lg-8 col-md-8  col-12 ">
             <div className={classes.detailHeading}>
-              <h2> Shopping Details </h2>{" "}
-            </div>{" "}
+              <h2> Shopping Details </h2>    
+            </div>    
             <div className={classes.myForm}>
               <ProductConsumer>
-                {" "}
+                    
                 {(value) => {
                   return (
                     <Form onSubmit={clickHandler}>
@@ -48,7 +48,7 @@ function ShipDetail() {
                             id="last"
                             required
                           />
-                        </Form.Group>{" "}
+                        </Form.Group>    
                       </Form.Row>
                       <Form.Group className="mb-4" controlId="formGridAddress1">
                         <Form.Control
@@ -77,9 +77,9 @@ function ShipDetail() {
                             defaultValue="Country"
                             required
                           >
-                            <option> India </option> <option> Canada </option>{" "}
-                            <option> USA </option> <option> Australia </option>{" "}
-                          </Form.Control>{" "}
+                            <option> India </option> <option> Canada </option>    
+                            <option> USA </option> <option> Australia </option>    
+                          </Form.Control>    
                         </Form.Group>
                         <Form.Group as={Col} controlId="formGridCity">
                           <Form.Control
@@ -89,7 +89,7 @@ function ShipDetail() {
                             id="city"
                             required
                           />
-                        </Form.Group>{" "}
+                        </Form.Group>    
                       </Form.Row>
                       <Form.Row className="mb-3">
                         <Form.Group as={Col} controlId="formGridEmail">
@@ -114,7 +114,7 @@ function ShipDetail() {
                             pattern="[0-9]{5}-[0-9]{5}"
                             required
                           />
-                        </Form.Group>{" "}
+                        </Form.Group>    
                       </Form.Row>
                       <Form.Row className={classes.myRadio}>
                         <Form.Group as={Col} controlId="formGridEmail">
@@ -127,10 +127,10 @@ function ShipDetail() {
                               id="one"
                             />
                             <div>
-                              <h6> Free Shipping </h6>{" "}
-                              <p> Between 2 - 5 working days </p>{" "}
-                            </div>{" "}
-                          </div>{" "}
+                              <h6> Free Shipping </h6>    
+                              <p> Between 2 - 5 working days </p>    
+                            </div>    
+                          </div>    
                         </Form.Group>
                         <Form.Group as={Col} controlId="formGridPassword">
                           <div className={classes.radioButton}>
@@ -142,32 +142,32 @@ function ShipDetail() {
                               id="two"
                             />
                             <div>
-                              <h6> Next Day Delivery - $20 </h6>{" "}
-                              <p> 24 hours from checkout </p>{" "}
-                            </div>{" "}
-                          </div>{" "}
-                        </Form.Group>{" "}
+                              <h6> Next Day Delivery - $20 </h6>    
+                              <p> 24 hours from checkout </p>    
+                            </div>    
+                          </div>    
+                        </Form.Group>    
                       </Form.Row>
                       <div className={classes.tempButton}>
                         <Link to="cart">
-                          <button> Back </button>{" "}
+                          <button> Back </button>    
                         </Link>
 
                         <button> Next </button>
-                      </div>{" "}
+                      </div>    
                     </Form>
                   );
                 }}
-              </ProductConsumer>{" "}
+              </ProductConsumer>    
             </div>
-          </Col>{" "}
+          </Col>    
           <Col className="col-lg-4 col-md-4 col-12">
             <ShipDetailsSummary
             //   delivery={delivery}
             />
-          </Col>{" "}
-        </Row>{" "}
-      </div>{" "}
+          </Col>    
+        </Row>    
+      </div>    
     </React.Fragment>
   );
 }
